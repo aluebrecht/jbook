@@ -6,6 +6,14 @@
 .iframe-wrapper iframe {
   height: 100%;
   width: 100%;
+  overflow: hidden;
+}
+
+.iframe-error {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: red;
 }
 .react-draggable-transparent-selection .iframe-wrapper::after {
   content: '';
